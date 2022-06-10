@@ -1,0 +1,193 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 23
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TripwireHook:VQC10 U1
+U 1 1 602138EB
+P 4900 3750
+AR Path="/602137E9/602138EB" Ref="U1"  Part="1" 
+AR Path="/60219533/602138EB" Ref="U2"  Part="1" 
+AR Path="/60219568/602138EB" Ref="U3"  Part="1" 
+AR Path="/602195A1/602138EB" Ref="U4"  Part="1" 
+AR Path="/602195DA/602138EB" Ref="U5"  Part="1" 
+AR Path="/6021C625/602138EB" Ref="U2"  Part="1" 
+AR Path="/6021C8D5/602138EB" Ref="U3"  Part="1" 
+AR Path="/6021CA22/602138EB" Ref="U4"  Part="1" 
+AR Path="/6021CB47/602138EB" Ref="U5"  Part="1" 
+AR Path="/6023D126/602138EB" Ref="U7"  Part="1" 
+F 0 "U1" H 4900 3950 50  0000 C CNN
+F 1 "VQC10" H 4900 3550 50  0000 C CNN
+F 2 "TripwireHook:VQC10" H 4900 4000 50  0001 C CNN
+F 3 "" H 4900 4000 50  0001 C CNN
+	1    4900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60219406
+P 4850 4650
+AR Path="/602137E9/60219406" Ref="#PWR0101"  Part="1" 
+AR Path="/60219533/60219406" Ref="#PWR0102"  Part="1" 
+AR Path="/60219568/60219406" Ref="#PWR0103"  Part="1" 
+AR Path="/602195A1/60219406" Ref="#PWR0104"  Part="1" 
+AR Path="/602195DA/60219406" Ref="#PWR0105"  Part="1" 
+AR Path="/6021C625/60219406" Ref="#PWR0105"  Part="1" 
+AR Path="/6021C8D5/60219406" Ref="#PWR0110"  Part="1" 
+AR Path="/6021CA22/60219406" Ref="#PWR0114"  Part="1" 
+AR Path="/6021CB47/60219406" Ref="#PWR0118"  Part="1" 
+AR Path="/6023D126/60219406" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0101" H 4850 4400 50  0001 C CNN
+F 1 "GND" H 4855 4477 50  0000 C CNN
+F 2 "" H 4850 4650 50  0001 C CNN
+F 3 "" H 4850 4650 50  0001 C CNN
+	1    4850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4350 4600 4500
+Wire Wire Line
+	4600 4500 4700 4500
+Wire Wire Line
+	5100 4500 5100 4350
+Wire Wire Line
+	5000 4350 5000 4500
+Connection ~ 5000 4500
+Wire Wire Line
+	5000 4500 5100 4500
+Wire Wire Line
+	4900 4350 4900 4500
+Connection ~ 4900 4500
+Wire Wire Line
+	4900 4500 5000 4500
+Wire Wire Line
+	4800 4350 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	4800 4500 4850 4500
+Wire Wire Line
+	4700 4350 4700 4500
+Connection ~ 4700 4500
+Wire Wire Line
+	4700 4500 4800 4500
+Wire Wire Line
+	4850 4500 4850 4650
+Connection ~ 4850 4500
+Wire Wire Line
+	4850 4500 4900 4500
+Text GLabel 5500 3550 2    50   Input ~ 0
+D1
+Text GLabel 5500 3650 2    50   Input ~ 0
+D2
+Text GLabel 5500 3750 2    50   Input ~ 0
+D3
+Text GLabel 5500 3850 2    50   Input ~ 0
+D4
+Text GLabel 5500 3950 2    50   Input ~ 0
+D5
+Text HLabel 4750 3150 1    50   Input ~ 0
+CP1
+Text HLabel 4850 3150 1    50   Input ~ 0
+CP2
+Text HLabel 4950 3150 1    50   Input ~ 0
+CP3
+Text HLabel 5050 3150 1    50   Input ~ 0
+CP4
+$Comp
+L power:+5V #PWR0102
+U 1 1 6021965D
+P 5200 4350
+AR Path="/602137E9/6021965D" Ref="#PWR0102"  Part="1" 
+AR Path="/6021C625/6021965D" Ref="#PWR0107"  Part="1" 
+AR Path="/6021C8D5/6021965D" Ref="#PWR0111"  Part="1" 
+AR Path="/6021CA22/6021965D" Ref="#PWR0115"  Part="1" 
+AR Path="/6021CB47/6021965D" Ref="#PWR0119"  Part="1" 
+AR Path="/6023D126/6021965D" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0102" H 5200 4200 50  0001 C CNN
+F 1 "+5V" H 5215 4523 50  0000 C CNN
+F 2 "" H 5200 4350 50  0001 C CNN
+F 3 "" H 5200 4350 50  0001 C CNN
+	1    5200 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60219DA1
+P 6400 3750
+AR Path="/602137E9/60219DA1" Ref="C1"  Part="1" 
+AR Path="/6021C625/60219DA1" Ref="C2"  Part="1" 
+AR Path="/6021C8D5/60219DA1" Ref="C3"  Part="1" 
+AR Path="/6021CA22/60219DA1" Ref="C4"  Part="1" 
+AR Path="/6021CB47/60219DA1" Ref="C5"  Part="1" 
+AR Path="/6023D126/60219DA1" Ref="C14"  Part="1" 
+F 0 "C1" H 6515 3796 50  0000 L CNN
+F 1 "1µF" H 6515 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 3600 50  0001 C CNN
+F 3 "~" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 6021A1F6
+P 6400 3600
+AR Path="/602137E9/6021A1F6" Ref="#PWR0103"  Part="1" 
+AR Path="/6021C625/6021A1F6" Ref="#PWR0108"  Part="1" 
+AR Path="/6021C8D5/6021A1F6" Ref="#PWR0112"  Part="1" 
+AR Path="/6021CA22/6021A1F6" Ref="#PWR0116"  Part="1" 
+AR Path="/6021CB47/6021A1F6" Ref="#PWR0120"  Part="1" 
+AR Path="/6023D126/6021A1F6" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0103" H 6400 3450 50  0001 C CNN
+F 1 "+5V" H 6415 3773 50  0000 C CNN
+F 2 "" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6021ABB0
+P 6400 3900
+AR Path="/602137E9/6021ABB0" Ref="#PWR0104"  Part="1" 
+AR Path="/60219533/6021ABB0" Ref="#PWR?"  Part="1" 
+AR Path="/60219568/6021ABB0" Ref="#PWR?"  Part="1" 
+AR Path="/602195A1/6021ABB0" Ref="#PWR?"  Part="1" 
+AR Path="/602195DA/6021ABB0" Ref="#PWR?"  Part="1" 
+AR Path="/6021C625/6021ABB0" Ref="#PWR0109"  Part="1" 
+AR Path="/6021C8D5/6021ABB0" Ref="#PWR0113"  Part="1" 
+AR Path="/6021CA22/6021ABB0" Ref="#PWR0117"  Part="1" 
+AR Path="/6021CB47/6021ABB0" Ref="#PWR0121"  Part="1" 
+AR Path="/6023D126/6021ABB0" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0104" H 6400 3650 50  0001 C CNN
+F 1 "GND" H 6405 3727 50  0000 C CNN
+F 2 "" H 6400 3900 50  0001 C CNN
+F 3 "" H 6400 3900 50  0001 C CNN
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 3450 0    50   Input ~ 0
+Z1
+Text HLabel 4300 3550 0    50   Input ~ 0
+Z2
+Text HLabel 4300 3650 0    50   Input ~ 0
+Z3
+Text HLabel 4300 3750 0    50   Input ~ 0
+Z4
+Text HLabel 4300 3850 0    50   Input ~ 0
+Z5
+Text HLabel 4300 3950 0    50   Input ~ 0
+Z6
+Text HLabel 4300 4050 0    50   Input ~ 0
+Z7
+$EndSCHEMATC

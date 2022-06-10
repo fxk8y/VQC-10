@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TripwireHook)(type KiCad)(uri ${KIPRJMOD}/TripwireHook/TripwireHook.pretty)(options "")(descr ""))
+  (lib (name TripwireHook_Connector_Handmade)(type KiCad)(uri ${KIPRJMOD}/TripwireHook/TripwireHook_Connector_Handmade.pretty)(options "")(descr ""))
+)
